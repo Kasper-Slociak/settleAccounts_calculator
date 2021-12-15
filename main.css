@@ -1,0 +1,118 @@
+body
+{
+    background: linear-gradient(90deg, #bdc3c7, #2c3e50);
+    width: 100%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    overflow: hidden;
+}
+.main
+{
+    width: 50%;
+    background: linear-gradient(75deg,#141e30,#243b55);
+    color: white;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5rem;
+}
+h1
+{
+   color: white;
+   text-align: center; 
+   font-size: 3rem;
+}
+input[type="number"]
+{
+   
+   box-sizing: border-box;
+   padding: 1.2rem 2rem;
+   margin-top: 1.2rem;
+   margin-bottom: 1.2rem;
+   width: 100%;
+   border: 0.2rem solid #ccc;
+   border-radius: 0.4rem;
+   color: black;
+   text-align: center;
+
+}
+input[type="radio"]
+{
+    box-sizing: border-box;
+    display: inline-block;
+    margin-bottom: 1.2rem;
+    margin-top: 0.8rem; 
+}
+.inputs
+{
+    padding: 2rem;
+    width: 100%;
+    text-align: center;
+}
+label
+{
+    font-size: 1.2rem;
+}
+.footer
+{
+    width: 100%;
+    text-align: center;
+    margin-top: 7rem;
+}
+.socials
+{
+	
+	width:100%;
+	
+}
+.li
+{
+    
+    width: 8rem;
+    height: 8rem;
+    border-radius: 50%;
+    text-align: center;
+    display: inline-block;
+    transition: background-color 1s;
+}
+.ac
+{
+    width: 8rem;
+    height: 8rem;
+    border-radius: 50%;
+    display: inline-block;
+    text-align: center;
+    transition: background-color 1s;
+}
+.li:hover
+{
+    cursor: pointer;
+    background-color: #004e92;
+}
+.ac:hover
+{
+    cursor: pointer;
+    background-color:#004e92;
+}
+.btn, .refresh
+{
+    margin-top: 1rem;
+    width: 6rem;
+    min-height:2rem ;
+    border-radius: 0.8rem;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: white;
+    font-size: 1.1rem;
+    background: linear-gradient(2deg,#D62121, #C72C2C, #3A1111);
+}
+.addItem
+{
+   opacity: 0;
+   text-align: center;
+   font-size: 1.8rem;
+   margin-bottom: -1.5rem;
+   background: linear-gradient(90deg, #115481, #2c3e50);
+   color: white;
+   border: 0.2rem solid #ccc;
+   box-shadow: #ccc 4rem;
+   border-radius: 0.4rem;   
+}

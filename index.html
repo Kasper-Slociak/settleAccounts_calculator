@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+
+	<meta charset="utf-8">
+	<title>Let's settle accounts</title>
+	<meta name="description" content="A site that will help you settle your joint expenses with your friends">
+	<meta name="keywords" content="Settle accounts Join expenses ">
+	<meta name="author" content="http://kasperslociak.pl">
+	
+	<meta http-equiv="X-Ua-Compatible" content="IE=edge,chrome=1">
+	
+	<link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="css/fontello.css">
+
+	<link href="https://fonts.googleapis.com/css?family=Lobster&amp;subset=latin-ext" rel="stylesheet">
+
+	<!--[if lt IE 9]>
+	<script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js"></script>
+	<![endif]-->
+
+</head>
+
+<body>
+	
+    <h1>Settle yours shared expenses with firends</h1>
+<div class="main">
+    <div class="inputs">
+		<label>Has anyone already paid for everyone?</label>
+    </br>
+        <label for="yes">Yes</label>
+<input type="radio" name="paid" id="yes" value="yes" onclick="someonePaid();">
+        <label for="no">No</label>
+<input type="radio" name="paid" id="no" value="no" onclick="simpleCount();">
+</br>
+        <label for="persons">Enter the number of persons</label>
+<input type="number" name="persons" class="persons" value="0">
+        <label for="amount">Enter the amount to settle</label>
+<input type="number" name="amount" id="amount" value="0">
+        
+<div class="newInput"></div>
+</br>
+<button type="button" class="btn">Count</button>
+<button type="button" class="refresh" onclick="refresh();">Refresh</button>
+</br>
+<p class="addItem"></p>
+    </div>
+	
+    
+</div>
+
+<div class="footer">
+    <div class="socials" id="socials">
+		
+		<div class="li" id="li">
+		<i class="icon-linkedin"></i>
+		</div>
+		<div class="ac" id="ac">
+		<i class="icon-address-card"></i>
+		</div>
+		
+
+	</div>
+
+
+</div>
+	<script src="settle.js"></script>
+</body>
+</html>
